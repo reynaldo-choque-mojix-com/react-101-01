@@ -1,5 +1,26 @@
 [
     {
-        "name": "test"
+        "name": "Alakazam",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/alakazam.png"
+    },
+    {
+        "name": "Charizard",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/charizard.png"
+    },
+    {
+        "name": "Mew",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew.png"
+    },
+    {
+        "name": "MewTwo",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew2.png"
+    },
+    {
+        "name": "Pikachu",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/pikachu.png"
+    },
+    {
+        "name": "Zapdos",
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/zapdos.jpg"
     }
 ]
