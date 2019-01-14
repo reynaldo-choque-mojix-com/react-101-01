@@ -14,8 +14,8 @@
     {
         "name": "Mew",
         "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew.png",
-        "latitute": -36.9741,
-        "longitude": -122.0308
+        "latitute": -17.8146,
+        "longitude": -63.1561
     },
     {
         "name": "MewTwo",
