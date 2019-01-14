@@ -1,26 +1,38 @@
 [
     {
         "name": "Alakazam",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/alakazam.png"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/alakazam.png",
+        "latitute": -16.4897,
+        "longitude": -68.1193
     },
     {
         "name": "Charizard",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/charizard.png"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/charizard.png",
+        "latitute": -17.4140,
+        "longitude": -66.1653
     },
     {
         "name": "Mew",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew.png"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew.png",
+        "latitute": -36.9741,
+        "longitude": -122.0308
     },
     {
         "name": "MewTwo",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew2.png"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/mew2.png",
+        "latitute": -17.9717,
+        "longitude": -67.0931
     },
     {
         "name": "Pikachu",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/pikachu.png"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/pikachu.png",
+        "latitute": -19.0196,
+        "longitude": -65.2620
     },
     {
         "name": "Zapdos",
-        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/zapdos.jpg"
+        "imageUrl": "https://raw.githubusercontent.com/reynaldo-choque-mojix-com/react-101-01/development/images/zapdos.jpg",
+        "latitute": -21.5214,
+        "longitude": -64.7281
     }
 ]
