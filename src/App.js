@@ -9,7 +9,9 @@ class App extends Component {
     super(props);
     this.state = {
       listPokemon: [],
-      selectedPokemon: null
+      allPokemon: [],
+      selectedPokemon: null,
+      search: ""
     };
   }
 
@@ -21,7 +23,9 @@ class App extends Component {
       .then( data => {
         this.setState({
           listPokemon: data, 
-          selectedPokemon: null
+          allPokemon: data,
+          selectedPokemon: null,
+          search: ""
         });
       })
     
@@ -31,6 +35,16 @@ class App extends Component {
     console.log("sent", pokemon);
     this.setState({
       selectedPokemon: pokemon
+    });
+  }
+
+  handleSearch = (event) => {
+    console.log(event.target.value);
+    this.setState({
+      search: event.target.value,
+      listPokemon: this.state.allPokemon.filter(
+        (pokemon) => new RegExp(event.target.value, "i").exec(pokemon.name)
+      )
     });
   }
 
@@ -49,6 +63,14 @@ class App extends Component {
     return (
       <div className="app">
         <div className="main">
+          <div className="search">
+            <input
+              type="text"
+              placeholder= "Search available pokemon in your country.."
+              value={this.state.search}
+              onChange={this.handleSearch}
+            />
+          </div>
           <div className="pokemon-list">
             {
               this.state.listPokemon.map( (pokemon) => {
